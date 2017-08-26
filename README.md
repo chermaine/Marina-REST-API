@@ -4,17 +4,17 @@ REST API planning and implementation that model a simple marina with boats and s
 
 # Entities and Properties:
 Boat {
-  "id": string
-  "name": string
-  "type": string
-  "length": integer
+  "id": string,
+  "name": string,
+  "type": string,
+  "length": integer,
   "at_sea": boolean
  }
  
  Slip {
-  "id": string
-  "number": integer
-  "current_boat": string
+  "id": string,
+  "number": integer,
+  "current_boat": string,
   "arrival_data": string
  }
  
